@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  bookstore.api:
-    image: ${DOCKER_REGISTRY-}bookstore
-    build:
-      context: .
-      dockerfile: BookStore.API/Dockerfile
